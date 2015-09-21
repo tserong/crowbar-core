@@ -36,9 +36,6 @@ else
   gem "sass-rails", version: "~> 4.0"
   require "sass-rails"
 
-  gem "rainbows-rails", version: "~> 1.0"
-  require "rainbows-rails"
-
   # general stuff
   gem "activerecord-session_store", version: "~> 0.1"
   require "activerecord/session_store"

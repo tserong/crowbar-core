@@ -70,7 +70,7 @@ when "suse"
     ruby2.1-rubygem-mixlib-shellout
     ruby2.1-rubygem-ohai-6
     ruby2.1-rubygem-rails-4_1
-    ruby2.1-rubygem-rainbows-rails
+    ruby2.1-rubygem-puma
     ruby2.1-rubygem-redcarpet
     ruby2.1-rubygem-ruby-shadow
     ruby2.1-rubygem-sass-rails
@@ -113,7 +113,7 @@ if node[:platform] != "suse"
     simple_navigation_renderers
     sqlite3
     syslogger
-    rainbows-rails
+    puma
   )
 
   gemlist.each do |g|
@@ -272,8 +272,8 @@ else
   realm = nil
 end
 
-template "/opt/dell/crowbar_framework/rainbows.cfg" do
-  source "rainbows.cfg.erb"
+template "/opt/dell/crowbar_framework/config/puma.rb" do
+  source "puma.rb.erb"
   owner "crowbar"
   group "crowbar"
   mode "0644"
