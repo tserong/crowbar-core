@@ -21,6 +21,26 @@ $bootstrap-sass-asset-helper: true;
   .navbar-brand {
     .title {
       background: transparent url("/assets/logo.png") no-repeat;
+      width: 230px;
     }
   }
 }
+
+h1,
+h2,
+h3.modal-title {
+  color: #37424a;
+}
+
+$brand-primary: #428bca;
+$body-bg: #f7f7f7;
+$link-hover-color: #3276b1;
+$dropdown-bg: #3a3e40;
+$dropdown-fallback-border: #000;
+$dropdown-link-color: #fff;
+$dropdown-link-hover-color: #fff;
+$dropdown-link-hover-bg: #80bc21;
+$dropdown-link-active-color: darken($dropdown-link-hover-bg, 10%);
+$dropdown-link-active-bg: #fff;
+$navbar-inverse-bg: #3a3e40;
+$navbar-inverse-link-active-color: #80bc21;
