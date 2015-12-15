@@ -1,11 +1,11 @@
-en:
-  docs:
-    deployment:
-      heading: 'Deployment Resources'
-      order: 100
-      items:
-        deployment_guide:
-          text: 'Deployment Guide'
-          link: '/docs/deployment/'
-          pdf: '/docs/suse-openstack-cloud-deployment_en.pdf'
-          order: 100
+#en:
+#  docs:
+#    deployment:
+#      heading: 'Deployment Resources'
+#      order: 100
+#      items:
+#        deployment_guide:
+#          text: 'Deployment Guide'
+#          link: '/docs/deployment/'
+#          pdf: '/docs/suse-openstack-cloud-deployment_en.pdf'
+#          order: 100
