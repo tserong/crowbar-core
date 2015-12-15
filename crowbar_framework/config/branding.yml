@@ -16,17 +16,17 @@
 
 # The main page title that gets displayed on all pages on the top bar and within
 # the meta information.
-page_title: 'SUSE OpenStack Cloud Crowbar'
+page_title: 'SUSE Enterprise Storage Crowbar'
 
 # The page slogan is an optional value. If you don't define it nothings gets
 # printed out. If you define it, it gets printed as a suffix for the page title.
 page_slogan: ''
 
 # This configuration entry can get used to customize the version name output.
-# SUSE OpenStack Cloud for example should write something like SUSE OpenStack Cloud v2.0, whereas
+# SUSE Enterprise Storage for example should write something like SUSE Enterprise Storage 2.1, whereas
 # Crowbar on Dell side writes Version 0.0.1. The variable CROWBAR_VERSION gets
 # replaced by the environment value.
-version: '<a href="https://www.suse.com/products/suse-cloud/" target="_new">SUSE OpenStack Cloud 6</a>'
+version: '<a href="https://www.suse.com/products/suse-enterprise-storage/" target="_new">SUSE Enterprise Storage 2.1</a>'
 
 # The provider will get displayed on the footer of crowbar to show who provides
 # this nice project ;-)
